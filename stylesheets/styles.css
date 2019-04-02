@@ -1,0 +1,133 @@
+/* ---------------------------------
+    Colours
+
+    Contrast for white backgrounds:
+    #006633 - Viridian
+    #006600 - Forest green
+    #003333 - Peruvian turquoise
+    #003300 - Kashmir green
+    #330033 - Deep purple
+    #000033 - Midnight blue
+    #333300 - Raw umber
+    #330000 - Burnt umber
+
+    ----------------------------- */
+
+/*  --------------------------------
+    Global styles
+    -------------------------------- */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: #F4F4F4;
+
+}
+
+.wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5vw;
+}
+
+.home-main {
+    margin: 0;
+    height: 80vh;
+    position: relative;
+}
+
+.home-main-title {
+    width: 100%;
+    margin: 0;
+    color: #003333;
+    position: absolute;
+    bottom: 32%;
+    text-align: center;
+}
+
+.home-main h1 {
+    font-size: 36px;
+    line-height: 1.6;
+}
+
+.home-main-title h1,
+.home-main-title h2 {
+    margin: 0;
+}
+
+
+/*  --------------------------------
+    Header
+    -------------------------------- */
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+/*  --------------------------------
+    Footer
+    -------------------------------- */
+footer {
+    border-top: 1px solid lightgrey;
+    padding: 18px 0;
+    color: #003333;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-copyright{
+    width: 100%;
+}
+
+.footer-copyright p {
+    font-size: 16px;
+}
+
+.footer-copyright p:first-of-type {
+    line-height: 2;
+}
+.footer-copyright p:last-of-type {
+    font-style: italic;
+}
+
+/*  --------------------------------
+    Navigation
+    -------------------------------- */
+nav {
+    text-align: right;
+    margin: 0;
+}
+
+nav a {
+    color: #003333;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 4px;
+    transition: color 0.3s ease-in;
+}
+
+nav a:hover {
+    color: #00AA11;
+}
+
+/* Unsure whether first/last-of-type are better selectors */
+nav a:last-child {
+    padding-right: 0;
+}
+
+nav a:first-child {
+    padding-left: 0;
+}
+
+/*  --------------------------------
+    Media queries
+    -------------------------------- */
